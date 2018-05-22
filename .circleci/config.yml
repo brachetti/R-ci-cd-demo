@@ -3,18 +3,16 @@ version: 2
 jobs:
   build:
     docker:
-      - image: rocker/tidyverse:devel
+      # - image: rocker/tidyverse:devel
+      - image: appsilon/ci-base:1.0
     steps:
       - checkout
       - run:
-          name: Greeting
-          command: echo Hello, world.
-      - run:
-          name: Print the Current Time
-          command: date
-      - run:
-          name: Install devtools and dependencies
           command: |
-            Rscript \
-              -e 'if (!requireNamespace("devtools", quietly = TRUE)) install.packages("devtools")' \
-              -e 'devtools::install_deps(dependencies = TRUE)'
+            R -e 'devtools::install_deps(dependencies = TRUE)'
+      - run:
+          command: |
+            R -e 'devtools::check()'
+      - store_artifacts:
+          path: man/
+          destination: man
