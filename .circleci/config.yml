@@ -10,7 +10,7 @@ jobs:
       - run:
           command: |
             R -e \
-              'if (!requireNamespace("devtools", quietly = TRUE)) install.packages("devtools")' \
+              'if (!requireNamespace("devtools", quietly = TRUE)) install.packages("devtools"); ' \
               'devtools::install_deps(dependencies = TRUE)'
       - run:
           command: |
