@@ -9,8 +9,8 @@ jobs:
       - checkout
     ## setup -------------------------------
     environment:
-      - PKG_TARBALL: package.tar.gz
-      - RCHECK_DIR: package.Rcheck
+      PKG_TARBALL: package.tar.gz
+      RCHECK_DIR: package.Rcheck
     - run:
       command: |
         R -e \
