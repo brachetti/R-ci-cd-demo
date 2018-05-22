@@ -1,44 +1,27 @@
+
 version: 2
 
 jobs:
   build:
     docker:
-    # - image: rocker/tidyverse:devel
+      # - image: rocker/tidyverse:devel
       - image: appsilon/ci-base:1.0
-    environment:
-      - PKG_TARBALL: package.tar.gz
-      - RCHECK_DIR: package.Rcheck
     steps:
       - checkout
       - run:
-        command: |
-          R -e \
-            'if (!requireNamespace("devtools", quietly = TRUE)) install.packages("devtools"); devtools::install_deps(dependencies = TRUE)'
-
-      ## build and test -----------------
+          command: |
+            R -e \
+              'if (!requireNamespace("devtools", quietly = TRUE)) install.packages("devtools"); devtools::install_deps(dependencies = TRUE)'
       - run:
-        name: Build Package
-        command: R CMD build .
-      - run:
-        name: rename package tarball
-        command: mv *.tar.gz ${PKG_TARBALL}
-      - run:
-        name: Check package
-        command: R CMD check package.tar.gz --as-cran --no-manual
-      - run:
-        name: Check failures
-        command: |
-          Rscript -e "message(devtools::check_failures(path = '${RCHECK_DIR}'))"
-          # warnings are errors
-          # - run: if grep -q -R "WARNING" "${RCHECK_DIR}/00check.log"; then exit 1; fi
-
+          command: |
+            R -e 'devtools::check()'
+      - store_artifacts:
+          path: man/
+          destination: man
       ## store artifacts -----------------
-      - run:
-        command: mv ${RCHECK_DIR} /tmp/Rcheck
-        when: always
       - store_test_results:
-        path: /tmp/Rcheck/tests/
+        path: ./tests/
         when: always
       - store_artifacts:
-        path: /tmp/Rcheck
+        path: ./rcicdemo.Rcheck
         when: always
