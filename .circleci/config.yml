@@ -6,11 +6,10 @@ jobs:
     # - image: rocker/tidyverse:devel
       - image: appsilon/ci-base:1.0
     environment:
-      PKG_TARBALL: package.tar.gz
-      RCHECK_DIR: package.Rcheck
+      - PKG_TARBALL: package.tar.gz
+      - RCHECK_DIR: package.Rcheck
     steps:
       - checkout
-      ## setup -------------------------------
       - run:
         command: |
           R -e \
