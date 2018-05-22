@@ -18,9 +18,6 @@ jobs:
           name: Build Package
           command: R CMD build .
 
-      # - run:
-      #     command: |
-      #       R -e 'devtools::check()'
     - run:
         name: Check package
         command: R CMD check "${PKG_TARBALL}" --as-cran --no-manual
@@ -31,11 +28,6 @@ jobs:
           Rscript -e "message(devtools::check_failures(path = '${RCHECK_DIR}'))"
           # warnings are errors
           # - run: if grep -q -R "WARNING" "${RCHECK_DIR}/00check.log"; then exit 1; fi
-
-
-      # - store_artifacts:
-      #     path: man/
-      #     destination: man
 
     ## store artifacts -----------------
 
