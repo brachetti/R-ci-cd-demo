@@ -4,9 +4,9 @@ jobs:
   build:
     docker:
     # - image: rocker/tidyverse:devel
-    - image: appsilon/ci-base:1.0
+      - image: appsilon/ci-base:1.0
     steps:
-    - checkout
+      - checkout
     ## setup -------------------------------
     environment:
       - PKG_TARBALL: package.tar.gz
