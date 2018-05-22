@@ -3,48 +3,43 @@ version: 2
 jobs:
   build:
     docker:
-      # - image: rocker/tidyverse:devel
-      - image: appsilon/ci-base:1.0
+    # - image: rocker/tidyverse:devel
+    - image: appsilon/ci-base:1.0
     steps:
-      - checkout
-      ## setup -------------------------------
+    - checkout
+    ## setup -------------------------------
+    environment:
+      - PKG_TARBALL: package.tar.gz
+      - RCHECK_DIR: package.Rcheck
+    - run:
+      command: |
+        R -e \
+          'if (!requireNamespace("devtools", quietly = TRUE)) install.packages("devtools"); devtools::install_deps(dependencies = TRUE)'
 
-      - run:
-          name: Set environmental variables
-          command: |
-            Rscript --vanilla \
-              -e 'dsc <- read.dcf("DESCRIPTION")' \
-              -e 'cat(sprintf("export PKG_TARBALL=%s_%s.tar.gz\n", dsc[,"Package"], dsc[,"Version"]))' \
-              -e 'cat(sprintf("export RCHECK_DIR=%s.Rcheck\n", dsc[,"Package"]))' \
-              >> ${ENV}
-      - run:
-          command: |
-            R -e \
-              'if (!requireNamespace("devtools", quietly = TRUE)) install.packages("devtools"); devtools::install_deps(dependencies = TRUE)'
+    ## build and test -----------------
+    - run:
+      name: Build Package
+      command: R CMD build .
+    - run:
+      name: rename package tarball
+      command: mv *.tar.gz ${PKG_TARBALL}
+    - run:
+      name: Check package
+      command: R CMD check package.tar.gz --as-cran --no-manual
+    - run:
+      name: Check failures
+      command: |
+        Rscript -e "message(devtools::check_failures(path = '${RCHECK_DIR}'))"
+        # warnings are errors
+        # - run: if grep -q -R "WARNING" "${RCHECK_DIR}/00check.log"; then exit 1; fi
 
-      ## build and test -----------------
-      - run:
-          name: Build Package
-          command: R CMD build .
-      - run:
-          name: Check package
-          command: R CMD check "${PKG_TARBALL}" --as-cran --no-manual
-
-      - run:
-          name: Check failures
-          command: |
-            Rscript -e "message(devtools::check_failures(path = '${RCHECK_DIR}'))"
-            # warnings are errors
-            # - run: if grep -q -R "WARNING" "${RCHECK_DIR}/00check.log"; then exit 1; fi
-
-      ## store artifacts -----------------
-
-      - run:
-          command: mv ${RCHECK_DIR} /tmp/Rcheck
-          when: always
-      - store_test_results:
-          path: /tmp/Rcheck/tests/
-          when: always
-      - store_artifacts:
-          path: /tmp/Rcheck
-          when: always
+    ## store artifacts -----------------
+    - run:
+      command: mv ${RCHECK_DIR} /tmp/Rcheck
+      when: always
+    - store_test_results:
+      path: /tmp/Rcheck/tests/
+      when: always
+    - store_artifacts:
+      path: /tmp/Rcheck
+      when: always
