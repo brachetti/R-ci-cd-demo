@@ -17,14 +17,15 @@ jobs:
             R -e 'devtools::check()'
       - run:
           command: |
+            mkdir test_results && \
             R -e 'devtools::test(".", reporter = testthat::JunitReporter$new(file = "test_results/testthat_result.xml"))'
       - store_artifacts:
           path: man/
           destination: man
       ## store artifacts -----------------
       - store_test_results:
-          path: ./test_results/
+          path: test_results/
           when: always
       - store_artifacts:
-          path: ./rcicdemo.Rcheck
+          path: rcicdemo.Rcheck/
           when: always
