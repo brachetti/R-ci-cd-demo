@@ -1,0 +1,499 @@
+* using log directory ‘/Users/ronald/Projects/MAF/R-ci-cd-demo/..Rcheck’
+* using R version 3.5.0 (2018-04-23)
+* using platform: x86_64-apple-darwin17.5.0 (64-bit)
+* using session charset: UTF-8
+* checking for file ‘./DESCRIPTION’ ... OK
+* checking extension type ... Package
+* this is package ‘rcicddemo’ version ‘0.1.0’
+* package encoding: UTF-8
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... NOTE
+Found the following apparent object files/libraries:
+  packrat/lib-R/x86_64-apple-darwin17.5.0/3.5.0/class/libs/class.so
+  packrat/lib-R/x86_64-apple-darwin17.5.0/3.5.0/cluster/libs/cluster.so
+  packrat/lib-R/x86_64-apple-darwin17.5.0/3.5.0/foreign/libs/foreign.so
+  packrat/lib-R/x86_64-apple-darwin17.5.0/3.5.0/graphics/libs/graphics.so
+  packrat/lib-R/x86_64-apple-darwin17.5.0/3.5.0/grDevices/libs/grDevices.so
+  packrat/lib-R/x86_64-apple-darwin17.5.0/3.5.0/grid/libs/grid.so
+  packrat/lib-R/x86_64-apple-darwin17.5.0/3.5.0/KernSmooth/libs/KernSmooth.so
+  packrat/lib-R/x86_64-apple-darwin17.5.0/3.5.0/lattice/libs/lattice.so
+  packrat/lib-R/x86_64-apple-darwin17.5.0/3.5.0/MASS/libs/MASS.so
+  packrat/lib-R/x86_64-apple-darwin17.5.0/3.5.0/Matrix/libs/Matrix.so
+  packrat/lib-R/x86_64-apple-darwin17.5.0/3.5.0/methods/libs/methods.so
+  packrat/lib-R/x86_64-apple-darwin17.5.0/3.5.0/mgcv/libs/mgcv.so
+  packrat/lib-R/x86_64-apple-darwin17.5.0/3.5.0/nlme/libs/nlme.so
+  packrat/lib-R/x86_64-apple-darwin17.5.0/3.5.0/nnet/libs/nnet.so
+  packrat/lib-R/x86_64-apple-darwin17.5.0/3.5.0/parallel/libs/parallel.so
+  packrat/lib-R/x86_64-apple-darwin17.5.0/3.5.0/rpart/libs/rpart.so
+  packrat/lib-R/x86_64-apple-darwin17.5.0/3.5.0/spatial/libs/spatial.so
+  packrat/lib-R/x86_64-apple-darwin17.5.0/3.5.0/splines/libs/splines.so
+  packrat/lib-R/x86_64-apple-darwin17.5.0/3.5.0/stats/libs/stats.so
+  packrat/lib-R/x86_64-apple-darwin17.5.0/3.5.0/survival/libs/survival.so
+  packrat/lib-R/x86_64-apple-darwin17.5.0/3.5.0/tools/libs/tools.so
+  packrat/lib-R/x86_64-apple-darwin17.5.0/3.5.0/utils/libs/utils.so
+  packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/backports/libs/backports.so
+  packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/commonmark/libs/commonmark.so
+  packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/digest/libs/digest.so
+  packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/glue/libs/glue.so
+  packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/jsonlite/libs/jsonlite.so
+  packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/mime/libs/mime.so
+  packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/openssl/libs/openssl.so
+  packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/libs/Rcpp.so
+  packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/rlang/libs/rlang.so
+  packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/roxygen2/libs/roxygen2.so
+  packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/stringi/libs/stringi.so
+  packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/testthat/libs/testthat.so
+  packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/xml2/libs/xml2.so
+Object files/libraries should not be included in a source package.
+
+Subdirectory ‘packrat/lib-R/x86_64-apple-darwin17.5.0/3.5.0/base’ seems to contain an installed version of the package.
+* checking if there is a namespace ... OK
+* checking for executable files ... WARNING
+Found the following executable files:
+  .git/objects/04/4625cd50b3f286ae406bbcf58e8f3fe1c121d4
+  .git/objects/07/53c4b8f649819b7f68d482483f4315b74829fe
+  .git/objects/09/f79572aceba656f1e04bad8ba08f12092115cb
+  .git/objects/0a/c43e050a2e74e116439108b0f492c6b21a6338
+  .git/objects/0a/fc606faebbea44aa9151f10d63c3c5b2d7ab9c
+  .git/objects/0d/a25babf97a4ec26fbb3fbbc9b3f7117ee8e24a
+  .git/objects/0f/a7c4b8817591c2dff2b3997d2566320ac6d9fc
+  .git/objects/12/068f3bf1afafc9e4fd17a708ab4ac2450a557e
+  .git/objects/12/266a9264778e5656467748ee4e57c200cbbb93
+  .git/objects/12/3870febb03d81e4d621de6912646db7965e59c
+  .git/objects/14/aa080e5a12a96816d0c9927fc5c5574fcd26fb
+  .git/objects/16/4aa37c4c442958bb697524e79a5188cc2be78e
+  .git/objects/1b/50e1aa09710de47658f59b1d37f3f936826d69
+  .git/objects/1f/52b895abff338fb3d1c21c67a0271ae01c6975
+  .git/objects/1f/84630cbeb1ff8d68d506d87b2cefe4e7aafdb3
+  .git/objects/1f/c758a21c564abe172758dbf7db7b15c8e83e94
+  .git/objects/22/1519bf73130a2f9598d165316065175ab279ce
+  .git/objects/23/f1288a4f2a64a8924b291febf7ce5d64cad6cd
+  .git/objects/24/cdd00f34ea466800f161d4ba1128f97c5f736a
+  .git/objects/26/b1f90d75900a32b2c0bd12a106dab96c8ed5d4
+  .git/objects/26/e8f6d4e003b542938dbc89d6e97644d7dc971c
+  .git/objects/27/0314b87d171300f76501b32e8a0354926d9c84
+  .git/objects/28/cc1935bfd44227c0d31f3a897a1a6b8b8ffd6d
+  .git/objects/29/47a113aeb62dba6696b9ad4614097aaa1666d2
+  .git/objects/2a/8be61e9377764299cba98a1e5401e78371cc0a
+  .git/objects/2b/98244db2adf7cc1d5d40b87cc0e5ec3288a1b2
+  .git/objects/2b/9b63c2c3ef847796c954b5aca0e8439cbef6d8
+  .git/objects/2c/1eb50c4d73fc59f5dae03c650672a163aa302f
+  .git/objects/2c/af95eb48d2955956aebeaf8a303aef22d09ee0
+  .git/objects/2d/0eafe6adfa4be6d329a1748e6753a17f78efd4
+  .git/objects/2d/5fb80e22b736c335655c43f9c8089b28607c9c
+  .git/objects/2e/a73fe006bbe862ea71e683eb1c6ca327f9f1d2
+  .git/objects/34/b8bb2e64639e6d0cc23f78dc3ac395ba803c2d
+  .git/objects/34/c264fcf5187377da91a121ccb82f2fa6e73acc
+  .git/objects/36/79468438f0c8501acf3a1f4144bca75734660e
+  .git/objects/37/0aa6dee83f0b23cc576bc1c59644f96c81fced
+  .git/objects/37/e1cc0516f80cbae86e6a19cdab46c1789f3fd7
+  .git/objects/38/f52226fcd7bcbffb7cdbaa38087e88369774e4
+  .git/objects/3c/4667f5c3f4698c093d5a0df83a5b32b9307997
+  .git/objects/3f/975afecf68999c3bad8fbbc9c35f965efe5e37
+  .git/objects/3f/c924ae267300baf1c25513a10f3c2d67aa6d3b
+  .git/objects/40/8d2933624196acf3b83d08f3a6a0ea10dcc056
+  .git/objects/40/b85b09f56e305721727361a0d3bc84186e571a
+  .git/objects/40/d5737cab5c23b4194a900955a851799c286a02
+  .git/objects/44/6afc7c56cd4f4ad436b17376766d5ae4c73b90
+  .git/objects/45/1d60f07a0f0ee55b64e3d51009230c424e2352
+  .git/objects/47/08ecb9393d4c2efa1f3624102ec7dbffb6663a
+  .git/objects/49/7f8bfcfb9d13ad61d14d79963641e9aeab41b0
+  .git/objects/4a/809b43727a03f41a292077561d46942fcb66d1
+  .git/objects/4b/28fdbe9264b5ebf77c2ba786c1806045424702
+  .git/objects/4b/fe223de76ce8b4b796db3dbbc3d1533829d48c
+  .git/objects/4d/141a42ca7162841a3275da1e330d8254d03b38
+  .git/objects/4e/9018118b43d6d7d8f1a75be3bf04a7a2e5806e
+  .git/objects/4e/a03178ab8a68f689bbe7beafae974b64427d7c
+  .git/objects/4f/18dde1ced35e0aa0e5eac5541d9a39b984cacb
+  .git/objects/4f/5307a8d8ae6bfe7aaa5fa9819ea865db92c62d
+  .git/objects/50/5b8a595882a0d916e9bf2efbbb194821af05bc
+  .git/objects/54/f627a450b3885207d9b09e09e1ae5990dc9bb4
+  .git/objects/55/92159cac56f01448948a92856eb971af9c9ce6
+  .git/objects/56/dca930a83be8801aed01d23523b1b8063cb430
+  .git/objects/59/9a8d2defa4e80e2fc35c2d06d37adb9017c17c
+  .git/objects/5a/839da1a05f5a7e5a5b082845c219c94fcf097c
+  .git/objects/5d/6113db1093e773c10407eabb30381b72dbb0e4
+  .git/objects/5d/7c5d9e73afc0a7b62f585305cd6d00590d75f4
+  .git/objects/5d/9b82a542ebbed243d3f242ff6e867752bcd7a3
+  .git/objects/60/84b424696cff738a4318b62cdeb951ea61a890
+  .git/objects/62/d38db4293c730b1f7c12dd2191c18817be918d
+  .git/objects/66/7d640821fa0f7f5d87aa2c810a71570470c921
+  .git/objects/67/e8f392b4b16dadb8b31cce9cea4fe66985704a
+  .git/objects/67/f452959ee0d6d34a337017a3a3c2b335be2704
+  .git/objects/6a/52a2b558b12de621c29887cd64bf46bf2c42f3
+  .git/objects/6a/e926839dd1829f1016a96f766d970ff184ad97
+  .git/objects/6b/580d122556ee5ec6e29fd603bfca74f2276170
+  .git/objects/6d/82a45cfbf8306092f483d9298cbfe1acfbe5e7
+  .git/objects/73/c75e50dff92b0d35b35bc3c9e54edd7ac6596d
+  .git/objects/75/4e8e296ebf32b3053dffd4f0f13e12e1fa4933
+  .git/objects/76/ed19124ac93ca4ea27ef58522c9ebd49e38e9d
+  .git/objects/77/8d8fdd4810c3e6ad1892939ace17bc51e5cb52
+  .git/objects/78/69bf4fb0d8aa9ea2709e065b39a73480e8d2fc
+  .git/objects/79/2d62c16a3b404cbf20b0beef823d9441f751a7
+  .git/objects/7a/33af83bf9e1a8afcab2e043a2069567633c3aa
+  .git/objects/7b/6bb1050e742e61dd34741d2fa0ab92e36c4f69
+  .git/objects/7c/8d8690e2b090fc9fab356893927e37fc1c1709
+  .git/objects/7c/d97a69e80a8e67e0bb82af924daab6f8c959dc
+  .git/objects/7e/6576e9e319e70274398e6b789d18572aae5ba0
+  .git/objects/80/3f542382229331ac63e6922790ff2dc8e4616c
+  .git/objects/80/712e5020e1590766c6ed966b927d1276359bf7
+  .git/objects/82/0bf104a620d8e478e5122d1be0b0c3781de1a2
+  .git/objects/83/0af618a7015b2d2e05f96cae02f2186872d5d8
+  .git/objects/84/7fbdced1bfe068a479f886f4248540339da347
+  .git/objects/84/876f0a95eb48591e924fa99450260d746f19dc
+  .git/objects/85/8b1ed28d27d3faa8747d892ca8a2348e694a66
+  .git/objects/86/54f0526ec161562415beca7dde369d6dd83639
+  .git/objects/86/78ce1850ff13d16897c8a5efe16f5a34a94cbf
+  .git/objects/86/c29fd1fa9a09e3141d2ac21bd0dff0fbb1a3da
+  .git/objects/86/d3399b4356e3df295cf6d2bcf973d407b8d9bc
+  .git/objects/8b/44e1da29f916f4c07e3e5fb4bc9c971762000f
+  .git/objects/8c/5638c2cc97b34561aa9d7696e6b1f51724b20c
+  .git/objects/8c/eeea42017b80662090b215679b34a4c1531db1
+  .git/objects/8d/2318a9a4a55b524168862b20b1cd5132319689
+  .git/objects/8d/c4748e7a698d32ead09034c345ee7715b8cb76
+  .git/objects/91/114bf2f2bba5e0c5252e75018da19b869776f1
+  .git/objects/91/32cdb3ad526bd4a57ceb5225ad70f0262e58eb
+  .git/objects/91/3996e4570da12c0a86a7420722b160f3fa74f9
+  .git/objects/91/a7aedfd211246c6269ef22176eb62ed8b9fda8
+  .git/objects/92/bc307d981a3895fd7e696e9b6e5ce30ff59a5b
+  .git/objects/93/a71071e57e20a8f2ae04813f596cab2fcd8b64
+  .git/objects/93/da92c4639245cd7aff808675f9931ee9c19b76
+  .git/objects/94/21525b7fc5582d6b89aec44fd96495b506e8a0
+  .git/objects/95/bd030c9813b6ef54411b5f4eae7da80518175d
+  .git/objects/97/4dc33313d3e02d0bb1be1e6b698e0651129cab
+  .git/objects/98/712edbb4b3cc0e874ca078f7770c52a5648665
+  .git/objects/9b/272b6847bab96b185a21bbdf562b019741e12a
+  .git/objects/9b/a637262935bbe3499743267c273a4d0b094648
+  .git/objects/9b/f17e5d1480d255363b57f0f67d0c43991ba460
+  .git/objects/9f/021ca7b06ca852ae16ec53a6db7584652a276a
+  .git/objects/a3/849d8b7c15c75ee8aca7aa9d02456e2e7a88b4
+  .git/objects/a4/8c9aa6a93aea89c3a8c481141cc71de6d8d645
+  .git/objects/a5/bb73e50f3bd81a071fc094184375481601e935
+  .git/objects/a9/7a5cb87a78f197fa9d44433173430e3b24a16b
+  .git/objects/a9/958b73f4d4332ea97e2edd63bc42ad59adb53e
+  .git/objects/ab/6d490c822a50f382cad604d40b87d8f16dadd3
+  .git/objects/ac/57707fa78c3fdd46adda5ad461eca8f0ab7b82
+  .git/objects/ac/a5078f70b7fd4b5b14ee77e3d1440e6bb30439
+  .git/objects/b1/50108d0e093086494b012f4ad1089a62113b9a
+  .git/objects/b2/110a6d3eed9cbc85f119bb4e2077896a03d21f
+  .git/objects/b6/24cdfb8e825bc4d0d6764ecb8fa317e1be0ae1
+  .git/objects/b6/8d36965233029e736903e394242fd3f7a47321
+  .git/objects/b9/18be7c424ee5d01d92b7f87c8fdb44a81c8363
+  .git/objects/bb/32652828bb0eb0208bb4ce09a9e3772107a319
+  .git/objects/bb/58437facebc927518d35fdc6b0bad586cde4b5
+  .git/objects/bc/3b2d35eccd2b710e735292c7f977b0d1cb4a6a
+  .git/objects/be/0b4678c90b7e3e55c3f18f0892e5952803f0d0
+  .git/objects/c0/3ec567c35e31d6c2991db54eaaa0a0e902bba8
+  .git/objects/c0/7615b3e62fee3785795e3ab1bd51c6c00f4d5a
+  .git/objects/c0/b11eb8ca33d5534dc36cb6b960b3bb122e30a0
+  .git/objects/c1/e4e78c1fa1461712c5e78d2f005f393753b62d
+  .git/objects/c2/313ad004a3fb2efed0d219517cf9d1befd959f
+  .git/objects/c5/91de8974c24b36cefc4d6a91456e1dbc3f7595
+  .git/objects/c7/ad5ac1c38827ee674197e671e2476d43820a14
+  .git/objects/c7/d603993ae569134c3ef04e8fa4931288e5264d
+  .git/objects/c9/5dd14d6498812186143c01fdce943b2d621c80
+  .git/objects/ca/5c6d9c031984c95203896767184ee354e82c0a
+  .git/objects/cd/55e7e02eb8b89d3127e9c8754fc2678c4a2bb1
+  .git/objects/ce/c1b5e21e1ed79e482199c090672699f98f1258
+  .git/objects/cf/2fd4d710466210f3b4a781b62ffb212a42d985
+  .git/objects/cf/556830d95dd5ead599dec3d4af5dbe5367c33d
+  .git/objects/cf/c1011c788c66eac2cadb0d529acd9b1eec27ed
+  .git/objects/d2/b248f7218a69bd86d607afa4ccc468b23e256e
+  .git/objects/d4/4890ad75e25cdde87ae165c35d45c5dedb8c4f
+  .git/objects/d5/a25c126eb4df1937291f6558b29d054810a815
+  .git/objects/d6/86c32902ac636120f6883ee63083efad1ee039
+  .git/objects/d6/c1c972f34321955857c967007e2d967fae648c
+  .git/objects/d7/5f824ec6278db24891505b14ab3d915514dba7
+  .git/objects/da/1e474bf975dab61d9c5b9229928712f888eb67
+  .git/objects/da/29b7982b2bc8722d8ff534ea34da187dff12f6
+  .git/objects/dc/0204cc1285ec9d065932403ab97244e2811c86
+  .git/objects/dc/2463538aa7a35f7a2a9bd53e2e81a429511fd7
+  .git/objects/de/5430019a6d7153a7d6635d29c5344b25a9a44a
+  .git/objects/e2/f98604095732ac4b684edb612cd6d256dfe865
+  .git/objects/e3/8a3b0231fbaaa578c37f32f24bcafa11b48536
+  .git/objects/e3/c959895949dbaec9d86b3ffff279af212ad92f
+  .git/objects/e6/519f0c7eecf8d08562b2dfc11c05c540c8f561
+  .git/objects/e8/4a6c8a729773ec6668ee0a9aabfe7724980536
+  .git/objects/ed/470cd110c273378cff47c389ac9cae5213d1ba
+  .git/objects/ed/e7d2e828c388ab2acfad5ee6b974f73ff3b7b8
+  .git/objects/ee/77a396156cede2ca16c9f4a9e324d4ccce9564
+  .git/objects/ee/b328bece88836ffe6f699d7afa87df7722eb57
+  .git/objects/ef/f243ed6b8b4f39602622890e53446780cea082
+  .git/objects/f1/1d0ae451edd3626e5dcee3a12c2f44ef700a4a
+  .git/objects/f2/64675c0ff4573f938b820f2bc8296e93c276fc
+  .git/objects/f2/c6026f50e8f75793481ca6008f6cc02bc807ee
+  .git/objects/f5/5907c826cc514441ec05efbd203b469fb3c719
+  .git/objects/f5/9c35d27297c2e94e2e2075fed27bf694280bef
+  .git/objects/f8/bb1e10e1b4f13e4bb8e3120f403c41182f00e4
+  .git/objects/fa/812994d2514f8a6b13d989855636d1f48eb4a4
+  .git/objects/fc/cd44835d8f1bd64097af5c79e9247d75745b76
+  .git/objects/fe/5dedb85fa8004a742ae609c97b8337f5ded3a0
+  .git/objects/fe/b40e1389fc43abce9cce60e1119413fbb1c597
+  .git/objects/fe/fc8c81a3f7842e42314c6a122b94f479025044
+  packrat/lib-R/x86_64-apple-darwin17.5.0/3.5.0/nnet/help/nnet.rdb
+  packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/stringi/help/stringi.rdb
+Source packages should not contain undeclared executable files.
+See section ‘Package structure’ in the ‘Writing R Extensions’ manual.
+* checking for hidden files and directories ... NOTE
+Found the following hidden files and directories:
+  .gitignore
+  .Rhistory
+  .Rprofile
+  ..Rcheck
+  .circleci
+  .git
+  .Rproj.user
+These were most likely included in error. See section ‘Package
+structure’ in the ‘Writing R Extensions’ manual.
+* checking for portable file names ... NOTE
+Found the following non-portable file paths:
+  rcicddemo/packrat/lib-R/x86_64-apple-darwin17.5.0/3.5.0/KernSmooth/po/en@quot/LC_MESSAGES/R-KernSmooth.mo
+  rcicddemo/packrat/lib-R/x86_64-apple-darwin17.5.0/3.5.0/Matrix/doc/SuiteSparse/SuiteSparse_config.txt
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/magrittr/tests/testthat/test-anonymous-functions.r
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/magrittr/tests/testthat/test-multiple-arguments.r
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/lockfiles/lockfile-multipleRepos.txt
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/other-packages/packrat/DESCRIPTION
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/packages/bread/DESCRIPTION
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/packages/breakfast/DESCRIPTION
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/packages/egg/DESCRIPTION
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/packages/oatmeal/DESCRIPTION
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/packages/packrat/DESCRIPTION
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/packages/toast/DESCRIPTION
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/projects/emptydesc/app.R
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/projects/emptydesc/DESCRIPTION
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/projects/healthy/healthy.R
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/projects/libraries/library.R
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/projects/libraries/packrat/lib/lib-current.R
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/projects/libraries/packrat/library.new/lib-new.R
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/projects/partlyignored/ignoreme/ignorethis.R
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/projects/partlyignored/notignored.R
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/projects/smallbreakfast/bread.R
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/projects/smallbreakfast/oatmeal.R
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/repo-empty/src/contrib/PACKAGES
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/repo/src/contrib/bread/bread_1.0.0.tar.gz
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/repo/src/contrib/breakfast/breakfast_1.0.0.tar.gz
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/repo/src/contrib/egg/egg_1.0.0.tar.gz
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/repo/src/contrib/oatmeal/oatmeal_1.0.0.tar.gz
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/repo/src/contrib/PACKAGES
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/repo/src/contrib/PACKAGES.gz
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/repo/src/contrib/PACKAGES.rds
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/repo/src/contrib/packrat/packrat_0.4.9.tar.gz
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/repo/src/contrib/toast/toast_1.0.0.tar.gz
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/resources/alternate-engines.Rmd
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/resources/evaluate-deps.Rmd
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/resources/interactive-doc-example.Rmd
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/resources/knitr-minimal.Rnw
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/resources/params-example.Rmd
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/resources/test-sweave.Rnw
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/test-local-repositories.R
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/Ugly, but legal, path for a project (long)/bread/DESCRIPTION
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/Ugly, but legal, path for a project (long)/breakfast/DESCRIPTION
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/Ugly, but legal, path for a project (long)/oatmeal/DESCRIPTION
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/Ugly, but legal, path for a project (long)/packrat/DESCRIPTION
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/Ugly, but legal, path for a project (long)/toast/DESCRIPTION
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/R6/tests/testthat/test-nonportable-inheritance.R
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/examples/ConvolveBenchmarks/buildAndRun.sh
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/examples/ConvolveBenchmarks/convolve10_cpp.cpp
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/examples/ConvolveBenchmarks/convolve10_cpp.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/examples/ConvolveBenchmarks/convolve11_cpp.cpp
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/examples/ConvolveBenchmarks/convolve12_cpp.cpp
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/examples/ConvolveBenchmarks/convolve13_cpp.cpp
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/examples/ConvolveBenchmarks/convolve14_cpp.cpp
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/examples/ConvolveBenchmarks/convolve3_cpp.cpp
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/examples/ConvolveBenchmarks/convolve4_cpp.cpp
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/examples/ConvolveBenchmarks/convolve5_cpp.cpp
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/examples/ConvolveBenchmarks/convolve8_cpp.cpp
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/examples/ConvolveBenchmarks/convolve9_cpp.cpp
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/examples/ConvolveBenchmarks/exampleRCode.r
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/examples/ConvolveBenchmarks/overhead_1.cpp
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/examples/RcppInline/RcppInlineWithLibsExamples.r
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/examples/SugarPerformance/sugarBenchmarks.R
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/date_datetime/date_datetime.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/date_datetime/newDatetimeVector.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/date_datetime/newDateVector.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/date_datetime/oldDatetimeVector.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/date_datetime/oldDateVector.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/exceptions/cpp11/exceptions.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/exceptions/cpp98/exceptions.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/generated/DataFrame_generated.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/generated/DottedPair__ctors.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/generated/Function__operator.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/generated/InternalFunction__ctors.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/generated/InternalFunctionWithStdFunction_call.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/internal/ListInitialization.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/InternalFunctionWithStdFunction.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/module/Module_generated_class_constructor.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/module/Module_generated_class_factory.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/module/Module_generated_class_signature.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/module/Module_generated_Constructor.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/module/Module_generated_CppFunction.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/module/Module_generated_CppMethod.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/module/Module_generated_ctor_signature.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/module/Module_generated_Factory.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/module/Module_generated_function.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/module/Module_generated_get_signature.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/module/Module_generated_method.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/module/Module_generated_Pointer_CppMethod.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/module/Module_generated_Pointer_method.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/sugar/block/Vectorized_Math.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/sugar/functions/is_infinite.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/sugar/functions/mapply/mapply_2.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/sugar/functions/mapply/mapply_3.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/sugar/functions/strings/collapse.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/sugar/functions/strings/strings.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/sugar/functions/strings/trimws.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/sugar/logical/SingleLogicalResult.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/sugar/matrix/matrix_functions.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/sugar/operators/Comparator_With_One_Value.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/sugar/operators/logical_operators__Vector__primitive.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/sugar/operators/logical_operators__Vector__Vector.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/sugar/operators/r_binary_op.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/sugar/operators/unary_minus.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/traits/remove_const_and_reference.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/include/Rcpp/utils/tinyformat/tinyformat.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/unitTests/bin/amd64/r-cran-testrcpppackage_0.1.0-1_amd64.deb
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/unitTests/bin/i386/r-cran-testrcpppackage_0.1.0-1_i386.deb
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/unitTests/testRcppClass/man/Rcpp_class_examples.Rd
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/unitTests/testRcppClass/man/rcpp_hello_world.Rd
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/unitTests/testRcppClass/man/testRcppClass-package.Rd
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/unitTests/testRcppClass/R/rcpp_hello_world.R
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/unitTests/testRcppClass/src/rcpp_hello_world.cpp
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/unitTests/testRcppClass/src/rcpp_hello_world.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/unitTests/testRcppClass/src/rcpp_module.cpp
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/unitTests/testRcppModule/man/rcpp_hello_world.Rd
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/unitTests/testRcppModule/man/Rcpp_modules_examples.Rd
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/unitTests/testRcppModule/man/testRcppModule-package.Rd
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/unitTests/testRcppModule/R/rcpp_hello_world.R
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/unitTests/testRcppModule/src/rcpp_hello_world.cpp
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/unitTests/testRcppModule/src/rcpp_hello_world.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/unitTests/testRcppModule/src/rcpp_module.cpp
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/unitTests/testRcppModule/src/stdVector.cpp
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/unitTests/testRcppPackage/man/testRcppPackage-package.Rd
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/unitTests/testRcppPackage/R/rcpp_hello_world.R
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/unitTests/testRcppPackage/src/rcpp_hello_world.cpp
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/unitTests/testRcppPackage/src/rcpp_hello_world.h
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/rlang/tests/testthat/fixtures/rlanglibtest/DESCRIPTION
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/rlang/tests/testthat/fixtures/rlanglibtest/NAMESPACE
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/rlang/tests/testthat/fixtures/rlanglibtest/R/rlanglibtest.R
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/rlang/tests/testthat/fixtures/rlanglibtest/src/init.c
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/rlang/tests/testthat/fixtures/rlanglibtest/src/Makevars
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/rlang/tests/testthat/fixtures/rlanglibtest/src/test-quo-accessors.c
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/rlang/tests/testthat/fixtures/rlanglibtest/tests/testthat.R
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/rlang/tests/testthat/fixtures/rlanglibtest/tests/testthat/test-quo-accessors.R
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/testthat/resources/catch-routine-registration.R
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/testthat/tests/testthat/reporters/summary-2.txt
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/testthat/tests/testthat/reporters/summary-no-dots.txt
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/testthat/tests/testthat/test_dir/helper_hello.R
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/testthat/tests/testthat/test_dir/test-bare-expectations.R
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/testthat/tests/testthat/test_dir/test-failures.R
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/testthat/tests/testthat/test-compare-character.R
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/testthat/tests/testthat/test-error/test-error.R
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/testthat/tests/testthat/test-evaluate-promise.R
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/testthat/tests/testthat/test-expect-inheritance.R
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/testthat/tests/testthat/test-expect-known-hash.R
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/testthat/tests/testthat/test-expect-known-output.R
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/testthat/tests/testthat/test-expect-known-value.R
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/testthat/tests/testthat/test-expect-reference.R
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/testthat/tests/testthat/test-expect-self-test.R
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/testthat/tests/testthat/test-expect-warning.txt
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/testthat/tests/testthat/test-path-installed/testthat-tests/testthat/empty
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/testthat/tests/testthat/test-path-missing/empty
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/testthat/tests/testthat/test-path-present/tests/testthat/empty
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/testthat/tests/testthat/test-warning/test-warning.R
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/projects/libraries/packrat/lib
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/projects/libraries/packrat/library.new
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/projects/partlyignored/ignoreme
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/repo/src/contrib/breakfast
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/repo/src/contrib/oatmeal
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/repo/src/contrib/packrat
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/Ugly, but legal, path for a project (long)/bread
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/Ugly, but legal, path for a project (long)/breakfast
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/Ugly, but legal, path for a project (long)/oatmeal
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/Ugly, but legal, path for a project (long)/packrat
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/packrat/tests/testthat/Ugly, but legal, path for a project (long)/toast
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/rlang/tests/testthat/fixtures/rlanglibtest/tests
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/rlang/tests/testthat/fixtures/rlanglibtest/tests/testthat
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/testthat/tests/testthat/test-path-installed/testthat-tests/testthat
+  rcicddemo/packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/testthat/tests/testthat/test-path-present/tests/testthat
+
+Tarballs are only required to store paths of up to 100 bytes and cannot
+store those of more than 256 bytes, with restrictions including to 100
+bytes for the final component.
+See section ‘Package structure’ in the ‘Writing R Extensions’ manual.
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘rcicddemo’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... WARNING
+Non-standard license specification:
+  What license is it under?
+Standardizable: FALSE
+Checking should be performed on sources prepared by ‘R CMD build’.
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... WARNING
+Found the following directory with the name of a check directory:
+  ./..Rcheck
+Most likely, these were included erroneously.
+Found the following CITATION files in a non-standard place:
+  packrat/lib-R/x86_64-apple-darwin17.5.0/3.5.0/base/CITATION
+  packrat/lib-R/x86_64-apple-darwin17.5.0/3.5.0/boot/CITATION
+  packrat/lib-R/x86_64-apple-darwin17.5.0/3.5.0/class/CITATION
+  packrat/lib-R/x86_64-apple-darwin17.5.0/3.5.0/cluster/CITATION
+  packrat/lib-R/x86_64-apple-darwin17.5.0/3.5.0/lattice/CITATION
+  packrat/lib-R/x86_64-apple-darwin17.5.0/3.5.0/MASS/CITATION
+  packrat/lib-R/x86_64-apple-darwin17.5.0/3.5.0/mgcv/CITATION
+  packrat/lib-R/x86_64-apple-darwin17.5.0/3.5.0/nlme/CITATION
+  packrat/lib-R/x86_64-apple-darwin17.5.0/3.5.0/nnet/CITATION
+  packrat/lib-R/x86_64-apple-darwin17.5.0/3.5.0/spatial/CITATION
+  packrat/lib-R/x86_64-apple-darwin17.5.0/3.5.0/survival/CITATION
+  packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/jsonlite/CITATION
+  packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/Rcpp/CITATION
+  packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/stringi/CITATION
+  packrat/lib/x86_64-apple-darwin17.5.0/3.5.0/testthat/CITATION
+Most likely ‘inst/CITATION’ should be used instead.
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... WARNING
+Undocumented arguments in documentation object 'policyAgeEvaluation'
+  ‘age’
+Documented arguments not in \usage in documentation object 'policyAgeEvaluation':
+  ‘numeric’
+
+Functions with \usage entries need to have the appropriate \alias
+entries, and all their arguments documented.
+The \usage entries must correspond to syntactically valid R code.
+See chapter ‘Writing R documentation files’ in the ‘Writing R
+Extensions’ manual.
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking include directives in Makefiles ... OK
+* checking examples ... NONE
+* checking for unstated dependencies in ‘tests’ ... OK
+* checking tests ... OK
+  Running ‘testthat.R’
+* checking PDF version of manual ... WARNING
+LaTeX errors when creating PDF version.
+This typically indicates Rd problems.
+* checking PDF version of manual without hyperrefs or index ... ERROR
+Re-running with no redirection of stdout/stderr.
+* DONE
+Status: 1 ERROR, 5 WARNINGs, 3 NOTEs

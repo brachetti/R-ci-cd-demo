@@ -1,6 +1,6 @@
 PackratFormat: 1.4
 PackratVersion: 0.4.9.2
-RVersion: 3.5.0
+RVersion: 3.4.4
 Repos: CRAN=https://cran.rstudio.com/
 
 Package: R6
@@ -44,21 +44,44 @@ Source: CRAN
 Version: 1.3.4
 Hash: ff2840dd9b0d563fc80377a5a45510cd
 
+Package: curl
+Source: CRAN
+Version: 3.2
+Hash: e3318ec2d42d15a38485bab047d114ba
+
 Package: desc
 Source: CRAN
 Version: 1.2.0
 Hash: a1fd2baa29d4954951e3d1816deab6af
 Requires: R6, assertthat, crayon, rprojroot
 
+Package: devtools
+Source: CRAN
+Version: 1.13.5
+Hash: 80061b2ad6853fd3665bf883123a1b1a
+Requires: digest, git2r, httr, jsonlite, memoise, rstudioapi, whisker,
+    withr
+
 Package: digest
 Source: CRAN
 Version: 0.6.15
 Hash: 1f202ebd812ac7192be3739245746a13
 
+Package: git2r
+Source: CRAN
+Version: 0.21.0
+Hash: 64747922e287be74e8e8b46c107fd3ef
+
 Package: glue
 Source: CRAN
 Version: 1.2.0
 Hash: 381e42baedecc633c0e547a0c7ca9de7
+
+Package: httr
+Source: CRAN
+Version: 1.3.1
+Hash: 2d32e01e53d532c812052e27a1021441
+Requires: R6, curl, jsonlite, mime, openssl
 
 Package: jsonlite
 Source: CRAN

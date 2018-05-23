@@ -3,4 +3,4 @@ library(rcicddemo)
 
 # test_check("rcicddemo")
 test_check("rcicddemo",
-           reporter = JunitReporter$new(file = "testthat/result.xml"))
+           reporter = JunitReporter$new(file = "result.xml"))

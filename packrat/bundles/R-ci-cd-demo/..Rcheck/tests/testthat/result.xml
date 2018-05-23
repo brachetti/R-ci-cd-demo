@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Policy: Age" timestamp="2018-05-22 17:07:49" hostname="BER-145175-C02WJ03QHTDH" tests="24" skipped="0" failures="0" errors="0" time="0.1">
+    <testcase time="0.02" classname="Policy:_Age" name="normal_ages_are_fine"/>
+    <testcase time="0.04" classname="Policy:_Age" name="normal_ages_are_fine"/>
+    <testcase time="0.01" classname="Policy:_Age" name="normal_ages_are_fine"/>
+    <testcase time="0" classname="Policy:_Age" name="normal_ages_are_fine"/>
+    <testcase time="0" classname="Policy:_Age" name="normal_ages_are_fine"/>
+    <testcase time="0.03" classname="Policy:_Age" name="under_age_triggers_a_violation"/>
+    <testcase time="0" classname="Policy:_Age" name="under_age_triggers_a_violation"/>
+    <testcase time="0" classname="Policy:_Age" name="under_age_triggers_a_violation"/>
+    <testcase time="0" classname="Policy:_Age" name="under_age_triggers_a_violation"/>
+    <testcase time="0" classname="Policy:_Age" name="under_age_triggers_a_violation"/>
+    <testcase time="0" classname="Policy:_Age" name="under_age_triggers_a_violation"/>
+    <testcase time="0" classname="Policy:_Age" name="under_age_triggers_a_violation"/>
+    <testcase time="0" classname="Policy:_Age" name="under_age_triggers_a_violation"/>
+    <testcase time="0" classname="Policy:_Age" name="negative_age_triggers_an_error"/>
+    <testcase time="0" classname="Policy:_Age" name="negative_age_triggers_an_error"/>
+    <testcase time="0" classname="Policy:_Age" name="negative_age_triggers_an_error"/>
+    <testcase time="0" classname="Policy:_Age" name="over_age_triggers_a_violation"/>
+    <testcase time="0" classname="Policy:_Age" name="over_age_triggers_a_violation"/>
+    <testcase time="0" classname="Policy:_Age" name="over_age_triggers_a_violation"/>
+    <testcase time="0" classname="Policy:_Age" name="over_age_triggers_a_violation"/>
+    <testcase time="0" classname="Policy:_Age" name="over_age_triggers_a_violation"/>
+    <testcase time="0" classname="Policy:_Age" name="over_age_triggers_a_violation"/>
+    <testcase time="0" classname="Policy:_Age" name="invalid_values_trigger_an_error"/>
+    <testcase time="0" classname="Policy:_Age" name="invalid_values_trigger_an_error"/>
+  </testsuite>
+</testsuites>

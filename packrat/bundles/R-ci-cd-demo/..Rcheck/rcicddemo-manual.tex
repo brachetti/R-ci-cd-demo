@@ -1,0 +1,54 @@
+\nonstopmode{}
+\documentclass[a4paper]{book}
+\usepackage[times,inconsolata,hyper]{Rd}
+\usepackage{makeidx}
+\usepackage[utf8]{inputenc} % @SET ENCODING@
+% \usepackage{graphicx} % @USE GRAPHICX@
+\makeindex{}
+\begin{document}
+\chapter*{}
+\begin{center}
+{\textbf{\huge Package `rcicddemo'}}
+\par\bigskip{\large \today}
+\end{center}
+\begin{description}
+\raggedright{}
+\inputencoding{utf8}
+\item[Type]\AsIs{Package}
+\item[Title]\AsIs{What the Package Does (Title Case)}
+\item[Version]\AsIs{0.1.0}
+\item[Author]\AsIs{Who wrote it}
+\item[Maintainer]\AsIs{The package maintainer }\email{yourself@somewhere.net}\AsIs{}
+\item[Description]\AsIs{More about what it does (maybe more than one line)
+Use four spaces when indenting paragraphs within the Description.}
+\item[License]\AsIs{What license is it under?}
+\item[Encoding]\AsIs{UTF-8}
+\item[LazyData]\AsIs{true}
+\item[Suggests]\AsIs{testthat}
+\item[RoxygenNote]\AsIs{6.0.1}
+\end{description}
+\Rdcontents{\R{} topics documented:}
+\inputencoding{utf8}
+\HeaderA{policyAgeEvaluation}{Evaluate Age of a customer against current policy rules}{policyAgeEvaluation}
+%
+\begin{Description}\relax
+Evaluate Age of a customer against current policy rules
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+policyAgeEvaluation(age)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Arguments}
+\begin{ldescription}
+\item[\code{numeric}] age
+\end{ldescription}
+\end{Arguments}
+%
+\begin{Value}
+list of violated policy rules
+\end{Value}
+\printindex{}
+\end{document}

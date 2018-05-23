@@ -1,0 +1,27 @@
+
+version: 2
+
+jobs:
+  build:
+    docker:
+      # - image: rocker/tidyverse:devel
+      - image: appsilon/ci-base:1.0
+    steps:
+      - checkout
+      - run:
+          command: |
+            R -e \
+              'if (!requireNamespace("devtools", quietly = TRUE)) install.packages("devtools"); devtools::install_deps(dependencies = TRUE)'
+      - run:
+          command: |
+            R -e 'devtools::check()'
+      - store_artifacts:
+          path: man/
+          destination: man
+      ## store artifacts -----------------
+      - store_test_results:
+          path: ./tests/
+          when: always
+      - store_artifacts:
+          path: ./rcicdemo.Rcheck
+          when: always
