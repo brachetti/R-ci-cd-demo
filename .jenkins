@@ -1,0 +1,6 @@
+{
+    "url": "http://localhost:8080/job/R-ci-cd-demo/",
+    "username": "admin",
+    "password": "admin",
+    "strictTls": false
+}
