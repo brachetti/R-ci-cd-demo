@@ -17,12 +17,23 @@ pipeline {
                     install.packages("devtools", repo="https://cloud.r-project.org"); \
                   devtools::install_deps(dependencies = TRUE)
                   '''
+                r 'packrat::packify(); packrat::restore()'
                 r 'devtools::check()'
             }
         }
         stage('Test') {
             steps {
-                sh 'echo "No Fail!"; exit 0'
+                sh 'mkdir test_results'
+                r '''
+                  devtools::test(".", \
+                    reporter = testthat::JunitReporter$new( \
+                        file = "test_results/testthat_result.xml"))
+                  '''
+                xunit(
+                    testTimeMargin: '3000',
+                    thresholdMode: 0,
+                    thresholds: [ skipped(failureThreshold: '0'), failed(failureThreshold: '0') ],
+                    tools: [ UnitTest(pattern: 'test_results/*.xml') ])
             }
         }
     }

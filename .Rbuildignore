@@ -3,3 +3,7 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
 .circleci
+.jenkins
+Jenkinsfile
+jenkins*.R
+tag.tmp
