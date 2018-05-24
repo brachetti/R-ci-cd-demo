@@ -23,7 +23,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'mkdir test_results'
+                sh 'mkdir -p test_results'
                 r '''
                   devtools::test(".", \
                     reporter = testthat::JunitReporter$new( \
