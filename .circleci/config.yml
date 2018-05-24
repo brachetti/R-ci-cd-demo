@@ -8,10 +8,19 @@ jobs:
       - image: appsilon/ci-base:1.0
     steps:
       - checkout
+      - restore_cache:
+          keys:
+            - deps1-{{ .Branch }}-{{ checksum "DESCRIPTION" }}
+            - deps1-{{ .Branch }}
+            - deps1-
       - run:
           command: |
             R -e \
               'if (!requireNamespace("devtools", quietly = TRUE)) install.packages("devtools"); devtools::install_deps(dependencies = TRUE)'
+      - save_cache:
+          key: deps1-{{ .Branch }}-{{ checksum "DESCRIPTION" }}
+          paths:
+            - "/usr/local/lib/R/site-library"
       - run:
           command: |
             R -e 'devtools::check()'
